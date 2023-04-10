@@ -1,0 +1,137 @@
+/*Kiểm thử thực thi css*/
+/*body{
+    background-color: lightcoral;
+}*/
+#top_div{
+    height: 150px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+#left_div{
+    height: 680px;
+    width: 20%;
+    background-color: lightgray;
+    float: left;
+}
+#center_div{
+    height: 680px;
+    width: 60%;
+    background-color: papayawhip;
+    float: left;
+}
+#right_div{
+    height: 680px;
+    width: 20%;
+    background-color: pink;
+    float: left;
+}
+#bottom_div{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    clear: both;
+}
+p{
+    color: red;
+}
+.cls01{
+    color: blueviolet;
+}
+#id01{
+    color: lawngreen;
+}
+/*Menu*/
+.cateOrder{
+    font-weight: bold;
+}
+.itemOrder{
+    font-style: italic;
+}
+ul{
+    list-style: square;
+    margin: 0;
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+/* Slide Image*/
+#DivSlideimage{
+    width: 80%;
+    margin: auto;
+}
+#DivView{
+    width: 600px;
+    height: 500px;
+    border: solid;
+}
+#DivList{
+   width: 600px;
+   height: 100px;
+   border: solid; 
+}
+#imgView{
+    width: 600px;
+    height: 500px;
+}
+.imgCls{
+    width: 80px;
+    height: 80px;
+}
+.imgCls:hover{
+    width: 95px;
+}
+/*jq ajax*/
+#content{
+    width: 84%;
+    height: auto;
+    border: solid;
+}
+#video{
+    width: 100%;
+    height: auto;
+    border: solid; 
+}
+#getContent:hover{
+    width: 100%;
+    height: auto;
+    
+}
+.linkmenu{
+    cursor: pointer;
+}
+.iconimg{
+    height: 20px;
+}
+/*nut update*/
+.btnupdate:hover{
+    cursor: pointer;
+}
+/*BÀI THỰC HÀNH 3*/
+#loginBody{
+    border-left: 1px double lightsteelblue;
+    border-top: 1px double lightsteelblue;
+    border-right: 1px double lightsteelblue;
+    border-bottom: 1px double lightsteelblue;
+    width: 300px;
+    height: 150px;
+    margin:  auto auto;
+}
+/*nut lenh sign out*/
+#signoutbutton{
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    opacity: 0.75;
+}
+#signoutbutton .inconbutton{
+    width: 50px;
+}
+
+/* css của kiệt */
+.imgtable {
+    width: 400px;
+    height: 290px;
+}
